@@ -1,6 +1,4 @@
 <?php
-
-
 include('includes/connection.php');
 if(!empty($_POST["classid"])) 
 {
