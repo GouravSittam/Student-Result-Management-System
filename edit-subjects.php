@@ -7,6 +7,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     header("location: index.php");
     exit;
 }
+
 $subid = intval($_GET['subid']);
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){
