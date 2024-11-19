@@ -41,7 +41,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <body class="bg-gray-100">
     <nav class="bg-blue-900 text-white p-4 text-center text-xl">
-      Lovely Professional University, Punjab
+    <marquee>
+    Lovely Professional University, Punjab
+    </marquee> 
     </nav>
 
     <div class="flex flex-col md:flex-row justify-center items-center mt-10">
